@@ -1,4 +1,3 @@
-// DataProcessor.js
 import React from 'react';
 
 const DataProcessor = ({ csvData }) => {

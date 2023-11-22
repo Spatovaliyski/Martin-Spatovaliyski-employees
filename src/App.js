@@ -1,10 +1,15 @@
-// App.js
+/**
+ * Created using create-react-app
+ */
 import React, { useState } from 'react';
 import FileUpload from './components/file-upload';
 import DataProcessor from './components/data-processor';
 
 import './App.css';
 
+/**
+ * We're getting a simple CSV parser for this implementation. 
+ */
 const Papa = require('papaparse');
 
 const App = () => {
